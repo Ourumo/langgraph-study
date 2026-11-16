@@ -1,0 +1,30 @@
+# 개인 학습 계획
+LangGraph 2개월 학습 계획.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 환경 변수, API 키
+.env
+.env.*
+
+# SQLite 체크포인터 데이터 (3주차~)
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# OS / 에디터
+.DS_Store
+.vscode/
+.idea/
