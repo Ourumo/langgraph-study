@@ -218,14 +218,6 @@ langgraph-study/
 | 체크포인트                          | 단계마다 저장되는 상태 스냅샷. 재개와 이력 조회의 기반           |
 | HITL                                | Human-in-the-loop. 실행 중간에 사람의 판단을 받는 구조           |
 
-## 주간 회고
-
-### 1주차
-
-- 된 것:
-- 막힌 것:
-- 다음 주에 할 것:
-
 ## 참고 자료
 
 - [LangChain Academy](https://academy.langchain.com/) - Quickstart: LangGraph Essentials, Introduction to LangGraph
