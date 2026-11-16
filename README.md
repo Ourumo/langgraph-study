@@ -197,9 +197,14 @@ uv run python -c "from importlib.metadata import version; print(version('langgra
 
 ```
 langgraph-study/
-├── week01/          # 주차별 실습 코드
-├── week02/
-├── ...
+├── week01/          # 환경 세팅, 첫 그래프, 조건 분기
+├── week02/          # 지시서·보고서 스키마, 첫 LLM 노드
+├── week03/          # 체크포인트, 사람 승인
+├── week04/          # 서브그래프, 실패 처리, 마스터 판단 노드
+├── week05/          # CLI 래퍼(claude -p, codex exec), 트레이싱
+├── week06/          # 실제 개발·QA 노드
+├── week07/          # 마스터 교체와 전체 실행
+├── week08/          # 튜닝 마무리와 정리
 ├── notes/           # 주간 회고, 개념 메모
 ├── pyproject.toml
 └── README.md
