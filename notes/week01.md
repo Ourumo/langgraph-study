@@ -20,10 +20,10 @@
 
 **Python 환경**
 
-- [ ] Python 3.12 설치 확인 (`python3 --version` → 3.12.3)
+- [x] Python 3.12 설치 확인 (`python3 --version` → 3.12.3)
   - `langchain` 1.5.0부터 3.10 지원이 끊겨서 3.12 또는 3.13으로 고정
-- [ ] uv 설치 (`brew install uv`), `uv --version`으로 확인
-- [ ] 프로젝트 초기화 (`uv init --python 3.12`)
+- [x] uv 설치 (`brew install uv`), `uv --version`으로 확인
+- [x] 프로젝트 초기화 (`uv init --python 3.12`)
   - `pyproject.toml`, `.python-version`이 생기는지 확인
   - 자동 생성되는 샘플 파일(`main.py` 또는 `hello.py`)은 삭제
   - 기존 README.md가 그대로인지 확인
@@ -98,7 +98,7 @@
 - [ ] `draw_mermaid()`로 그래프 그림을 뽑아 README에 넣기
   - 손으로 그린 흐름과 같은지 비교
 - [ ] 아래 주간 회고 3줄 작성
-- [ ] README 로드맵의 1주차 체크
+- [ ] README 로드맵 1주차 체크
 - [ ] 커밋과 push
 
 ## 📆 주간 회고
