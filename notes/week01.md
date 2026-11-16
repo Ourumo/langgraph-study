@@ -32,15 +32,23 @@
   - `.venv/`와 `uv.lock`이 생기는지 확인
 - [x] 설치 확인 (`uv run python -c "from importlib.metadata import version; print(version('langgraph'))"`)
   - `1.2.x`가 출력되면 통과
-- [ ] 환경 파일 커밋과 push (`pyproject.toml`, `uv.lock`, `.python-version`, `notes/week01.md`)
+- [x] 환경 파일 커밋과 push (`pyproject.toml`, `uv.lock`, `.python-version`, `notes/week01.md`)
   - `.venv/`가 커밋에 섞이지 않았는지 `git status`로 확인
 
 **완료 기준**
 
 - [x] `uv run`으로 langgraph `1.2.x` 버전이 출력된다
-- [ ] 환경 파일이 GitHub에 올라가 있다
+- [x] 환경 파일이 GitHub에 올라가 있다
 
-### 📝 핵심 메모
+### 📝 메모
+
+- 프로젝트는 `.venv`(Homebrew 3.12.3)만 사용
+
+  ```bash
+  uv run python -c "import sys; print(sys.executable)"
+  ```
+
+- `uv init`이 패키지 모드로 돼서 일반 모드로 변경
 
 ---
 
@@ -54,7 +62,6 @@
 - [ ] [Quickstart: LangGraph Essentials - Python](https://academy.langchain.com/collections/quickstart) 수강 (State, Node, Edge까지)
   - 예제가 API 키를 요구하면 가짜 함수로 바꿔서 실행
   - Memory 부분은 3주차 체크포인트에서 다시 다루므로 훑어보기만
-- [ ] 회차의 핵심 메모에 5줄로 정리 (State, Node, Edge가 각각 무엇이고 어떻게 연결되는지)
 - [ ] 완료 기준: State, Node, Edge를 각각 한 줄로 설명할 수 있다
 
 **첫 그래프 (a → b → c 직선 그래프)**
@@ -70,7 +77,6 @@
 - [ ] 리듀서 비교 실험
   - `log: list[str]`(리듀서 없음)로 실행한 결과 기록
   - `log: Annotated[list[str], operator.add]`로 바꿔 실행한 결과 기록
-  - 실행 전에 결과를 먼저 예상해 보고, 실제와 왜 다른지 핵심 메모에 정리
 - [ ] 커밋
 - [ ] 완료 기준: 리듀서가 있을 때와 없을 때 `log`가 어떻게 달라지는지 설명할 수 있다
 
