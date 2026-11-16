@@ -27,17 +27,17 @@
   - `pyproject.toml`, `.python-version`이 생기는지 확인
   - 자동 생성되는 샘플 파일(`main.py` 또는 `hello.py`)은 삭제
   - 기존 README.md가 그대로인지 확인
-- [ ] LangGraph 설치와 버전 고정 (`uv add "langgraph==1.2.*"`)
+- [x] LangGraph 설치와 버전 고정 (`uv add "langgraph==1.2.*"`)
   - `pyproject.toml`의 `dependencies`에 `langgraph==1.2.*`가 들어갔는지 확인
   - `.venv/`와 `uv.lock`이 생기는지 확인
-- [ ] 설치 확인 (`uv run python -c "from importlib.metadata import version; print(version('langgraph'))"`)
+- [x] 설치 확인 (`uv run python -c "from importlib.metadata import version; print(version('langgraph'))"`)
   - `1.2.x`가 출력되면 통과
 - [ ] 환경 파일 커밋과 push (`pyproject.toml`, `uv.lock`, `.python-version`, `notes/week01.md`)
   - `.venv/`가 커밋에 섞이지 않았는지 `git status`로 확인
 
 **완료 기준**
 
-- [ ] `uv run`으로 langgraph `1.2.x` 버전이 출력된다
+- [x] `uv run`으로 langgraph `1.2.x` 버전이 출력된다
 - [ ] 환경 파일이 GitHub에 올라가 있다
 
 ### 📝 핵심 메모
